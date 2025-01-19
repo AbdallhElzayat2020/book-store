@@ -20,6 +20,10 @@
                         <span>{{ $book->price }}</span>
                     </div>
                     <div class="d-flex align-items-center gap-4 mb-4">
+                        <h6>الفئة : </h6>
+                        <span>{{ $book->category->name }}</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-4 mb-4">
                         <h6>عمليات الشراء : </h6>
                         <span>{{ $book->bookSales()->count() }}</span>
                     </div>
