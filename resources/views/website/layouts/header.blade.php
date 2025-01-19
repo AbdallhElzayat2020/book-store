@@ -2,7 +2,7 @@
     <div id="nav-menu-wrap">
         <div class="container">
             <nav class="navbar navbar-expand-lg p-0">
-                <a class="navbar-brand" title="Home" href="#">
+                <a class="navbar-brand" title="Home" href="{{ route('home') }}">
                     <img src="{{ asset('uploads/img/dummy/your-logo.jpg') }}" alt="Logo White"
                         class="img-fluid logo-transparent">
                     <img src="{{ asset('uploads/img/dummy/your-logo.jpg') }}" alt="Logo Black"
