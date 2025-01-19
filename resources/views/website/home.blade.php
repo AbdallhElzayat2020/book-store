@@ -43,10 +43,9 @@
             <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
         </ul>
 
-        <a href="mailto:elsecolor@example.com" class="hero-email-link">elsecolor@example.com</a>
+        <a href="mailto:info@alamah.top" class="hero-email-link">info@alamah.top</a>
     </section>
     <!--// Hero Section End //-->
-
 
     <!--// About Section Start //-->
     <section class="section" id="about">
@@ -188,49 +187,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.4s">
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
                     <div class="resume-item">
                         <div class="body">
                             <div class="icon-outer-line">
                                 <div class="icon-inner-line">
-                                    <span class="fab fa-youtube"></span>
+                                    <span class="fab fa-dribbble"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <h6>Youtube LLC</h6>
-                                <h5>Seo Manager</h5>
-                                <span>2017-2019</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                    <div class="resume-item">
-                        <div class="body">
-                            <div class="icon-outer-line">
-                                <div class="icon-inner-line">
-                                    <span class="fab fa-amazon"></span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <h6>Amazon</h6>
-                                <h5>Sales Manager</h5>
-                                <span>2012-2014</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.6s">
-                    <div class="resume-item">
-                        <div class="body">
-                            <div class="icon-outer-line">
-                                <div class="icon-inner-line">
-                                    <span class="fab fa-behance"></span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <h6>Behance</h6>
-                                <h5>Graphic Designer</h5>
+                                <h6>Dribbble</h6>
+                                <h5>UI Designer</h5>
                                 <span>2012-2014</span>
                             </div>
                         </div>
@@ -247,28 +214,28 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-heading light">
-                        <span>بعض الاحصائيات</span>
-                        <h2>لقد وثق بي أكثر من 10000 عميل</h2>
+                        <h2>بعض الاحصائيات</h2>
+                        <h5 class="text-white">لقد وثق بي أكثر من 10000 عميل</h5>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.1s">
                     <div class="counter-item">
-                        <h3 class="counter">5,700</h3>
-                        <h5 style="font-size: 30px;color: #fff">عميل سعيد</h5>
+                        <h3 class="counter">1000</h3>
+                        <h5 style="font-size: 30px;color: #fff">تقييمات</h5>
                     </div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.3s">
                     <div class="counter-item">
-                        <h3 class="counter">500</h3>
+                        <h3 class="counter">300</h3>
                         <h5 style="font-size: 30px;color: #fff">مبيعات</h5>
                     </div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.1s">
                     <div class="counter-item">
                         <h3 class="counter">10</h3>
-                        <h5 style="font-size: 30px;color: #fff">خبرة سنوات</h5>
+                        <h5 style="font-size: 30px;color: #fff"> سنوات</h5>
                     </div>
                 </div>
             </div>

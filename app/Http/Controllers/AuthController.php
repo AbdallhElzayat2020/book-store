@@ -62,7 +62,6 @@ class AuthController extends Controller
             'password.min' => 'يجب أن تكون كلمة المرور على الأقل 6 أحرف.',
         ]);
 
-
         $user = new User();
         $user->name = $request->name;
         $user->email = $request->email;

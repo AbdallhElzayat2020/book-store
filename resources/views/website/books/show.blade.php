@@ -25,7 +25,7 @@
                     </div>
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <h6>عمليات الشراء : </h6>
-                        <span>{{ $book->bookSales()->count() }}</span>
+                        <span>300 عملية شراء</span>
                     </div>
                     @if ($book->bookSales()->where('user_id', auth()->id())->count() > 0)
                         <a href="{{ route('books.open', $book->id) }}" class="white-btn">
