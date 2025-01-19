@@ -70,7 +70,7 @@ class AuthController extends Controller
         $user->password = bcrypt($request->password);
         $user->save();
 
-        return redirect()->route('home')->with('success', 'تم انشاء الحساب بنجاح');
+        return redirect()->route('login')->with('success', 'تم انشاء الحساب بنجاح');
     }
 
     public function logout()
