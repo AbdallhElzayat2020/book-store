@@ -19,7 +19,7 @@ return new class extends Migration {
             $table->decimal('price');
             $table->string('image');
             $table->enum('status', ['visible', 'hidden'])->default('visible');
-            $table->string('book');
+            $table->longText('book');
             $table->timestamps();
         });
     }

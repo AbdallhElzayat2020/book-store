@@ -39,9 +39,8 @@ class BookController extends Controller
                 'author' => 'required|string|max:255',
                 'description' => 'required|string',
                 'price' => 'required|numeric|min:0',
-                'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
+                'image' => 'required|image|mimes:jpeg,png,jpg|max:4000',
                 'book' => 'required|file',
-
             ],
             [
                 'category.required' => 'حقل قسم الكتاب مطلوب.',
@@ -63,7 +62,7 @@ class BookController extends Controller
 
                 'image.required' => 'حقل الصورة مطلوب.',
                 'image.image' => 'حقل الصورة يجب أن يكون صورة.',
-                'image.mimes' => 'حقل الصورة يجب أن يكون من نوع jpeg, png, jpg, gif, svg.',
+                'image.mimes' => 'حقل الصورة يجب أن يكون من نوع jpeg, png, jpg.',
 
                 'book.required' => 'حقل الكتاب مطلوب.',
                 'book.file' => 'حقل الكتاب يجب أن يكون ملف.',
