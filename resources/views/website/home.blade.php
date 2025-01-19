@@ -1,4 +1,7 @@
 @extends('website.layouts.app')
+@push('styles')
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+@endpush
 @section('content')
     <!--// Hero Section Start //-->
     <section class="hero-banner" data-scroll-index="1">
@@ -14,19 +17,19 @@
                             إن البدايات الجديدة دائمًا قادرة على دفع الأعمال إلى الأمام. يلزم توفير تجربة المستخدم
                             قبل تقديم الخدمة. والآن فرصة رائعة للعمل مع عملائنا ودفع علامتك التجارية إلى الأمام.
                         </h2>
-                        <a href="{{route('books.index')}}" class="white-btn">
+                        <a href="{{ route('books.index') }}" class="white-btn">
                             <span class="text">عرض الكتب</span>
                             <span class="icon"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-5 col-xl-6 col-md-12 hero-img-resp wow fadeInUp" data-wow-duration="0.7s"
-                     data-wow-delay="0.5s">
+                    data-wow-delay="0.5s">
                     <div class="hero-img">
                         <div class="border-line-outer">
                             <div class="border-line-inner">
-                                <img src="{{asset('')}}uploads/img/dummy/354x354.jpg" title="banner image"
-                                     alt="banner image" class="img-fluid">
+                                <img src="{{ asset('') }}uploads/img/dummy/354x354.jpg" title="banner image"
+                                    alt="banner image" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -51,8 +54,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-img wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
-                        <img src="{{asset('')}}uploads/img/dummy/480x600.jpg" alt="About image" title="About image"
-                             class="img-fluid">
+                        <img src="{{ asset('') }}uploads/img/dummy/480x600.jpg" alt="About image" title="About image"
+                            class="img-fluid">
                         <a class="about-video-btn" href="https://www.youtube.com/watch?v=YqQx75OPRa0"><i
                                 class="fa fa-play"></i></a>
                         <div class="video-border-line"></div>
@@ -253,19 +256,19 @@
                 <div class="col-md-4 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.1s">
                     <div class="counter-item">
                         <h3 class="counter">5,700</h3>
-                        <p>عميل سعيد</p>
+                        <h5 style="font-size: 30px;color: #fff">عميل سعيد</h5>
                     </div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.3s">
                     <div class="counter-item">
                         <h3 class="counter">500</h3>
-                        <p>مبيعات</p>
+                        <h5 style="font-size: 30px;color: #fff">مبيعات</h5>
                     </div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.1s">
                     <div class="counter-item">
-                        <h3 class="counter">1,250</h3>
-                        <p>كتب</p>
+                        <h3 class="counter">10</h3>
+                        <h5 style="font-size: 30px;color: #fff">خبرة سنوات</h5>
                     </div>
                 </div>
             </div>
@@ -296,9 +299,9 @@
                 <div class="col-md-6 col-lg-4 portfolio-item mockup">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-item-img">
-                            <img src="{{asset('')}}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                 class="img-fluid">
-                            <a href="{{asset('')}}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
+                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
+                                class="img-fluid">
+                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
                                 <i class="fas fa-search"></i>
                             </a>
                         </div>
@@ -316,9 +319,9 @@
                 <div class="col-md-6 col-lg-4 portfolio-item mockup">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-item-img">
-                            <img src="{{asset('')}}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                 class="img-fluid">
-                            <a href="{{asset('')}}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
+                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
+                                class="img-fluid">
+                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
                                 <i class="fas fa-search"></i>
                             </a>
                         </div>
@@ -336,9 +339,9 @@
                 <div class="col-md-6 col-lg-4 portfolio-item mockup">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-item-img">
-                            <img src="{{asset('')}}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                 class="img-fluid">
-                            <a href="{{asset('')}}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
+                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
+                                class="img-fluid">
+                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
                                 <i class="fas fa-search"></i>
                             </a>
                         </div>
@@ -356,9 +359,9 @@
                 <div class="col-md-6 col-lg-4 portfolio-item mockup">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-item-img">
-                            <img src="{{asset('')}}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                 class="img-fluid">
-                            <a href="{{asset('')}}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
+                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
+                                class="img-fluid">
+                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
                                 <i class="fas fa-search"></i>
                             </a>
                         </div>
@@ -376,9 +379,9 @@
                 <div class="col-md-6 col-lg-4 portfolio-item ui">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-item-img">
-                            <img src="{{asset('')}}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                 class="img-fluid">
-                            <a href="{{asset('')}}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
+                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
+                                class="img-fluid">
+                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
                                 <i class="fas fa-search"></i>
                             </a>
                         </div>
@@ -396,9 +399,9 @@
                 <div class="col-md-6 col-lg-4 portfolio-item mockup">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-item-img">
-                            <img src="{{asset('')}}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                 class="img-fluid">
-                            <a href="{{asset('')}}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
+                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
+                                class="img-fluid">
+                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
                                 <i class="fas fa-search"></i>
                             </a>
                         </div>
@@ -426,6 +429,144 @@
         </div>
     </section>
     <!--// My Works End //-->
+
+    {{-- testimonial --}}
+    <section class="swiper mySwiper py-5 bg-dark">
+        <!-- العنوان -->
+        <div class="container text-center mb-5">
+            <h2 class="display-5 fw-bold text-white">آراء العملاء </h2>
+            <p class="lead text-muted fs-3">تعرف على آراء عملائنا الكرام وتجاربهم معنا.</p>
+        </div>
+
+        <!-- السلايدر -->
+        <div class="swiper-wrapper">
+
+            <!-- البطاقة الثانية -->
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2">المعلى الصميدعي</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    هذا البرنامج ملهم للشباب ليمكنهم من حسن الأداء اللفظي والردود الذكية وتحسين سرعة البديهة وتجاوز المواقف
+                    المحرجة .
+                    فمن حفظه وعمل به سيرى فرقا كبيرا في حياته.
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <!-- البطاقة التالتة -->
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2">الحسين الداهري</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    هو السهل الممتنع حيث يسمو بك ويرفعك عن كلام العامة ليصعد بك الى منطق أعلى من آيات وأحاديث وحكم وأمثال
+                    وأشعار السابقين. ويقوي ملكتك الأدبية والابداعية.
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <!-- البطاقة التالتة -->
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2">سكينة بنت مؤيد</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    عمل رائع وفريد من نوعه وينبغي أن يكون مرجعا في ذهن كل شاب وشابة.
+                    حتى يرتقي بشخصيته الاجتماعية.
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <!-- البطاقة التالتة -->
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2">بدر العامري / عمان</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    برنامج جميل جدا جدا..
+                    ومناسب للشباب والشبات.
+                    يقوي الشخصية ويزيد الهيبة والثقة
+                    اتمنى لكم التوفيق والسداد والنجاح..
+                    بارك الله لكم وسدد خطاكم ..
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <!-- البطاقة التالتة -->
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2"> د مرشد ديفيدز / جنوب افريقيا</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    برنامج حسن الكلام دليل أساسي لكل من يسعى لتعزيز مهاراته في التواصل، خاصة في عصر يتراجع فيه الحديث ذو
+                    المعنى الحقيقي. يقدم البرنامج مهارات عملية في سياق ثقافتنا، وأمثلة من الواقع، ونصائح قابلة للتطبيق، مما
+                    يمنح القرّاء القدرة على خوض المحادثات بثقة ووضوح وتعاطف. سواء كان هدفك تعزيز العلاقات الشخصية أو تحقيق
+                    التميز المهني، فإن هذا الكتاب يقدم رؤى قيّمة يسهل تطبيقها
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <!-- البطاقة الأولى -->
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2">أبو مروان</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    محتوى
+                    توعوي؛ تحفيزي؛ تعليمي؛ تنشيطي؛ تثقيفي؛ تدريبي على تنميق العبارات؛ وتحسين الدفاعات عن النفس؛ ويعلمك فنون
+                    القتال مع أهل التنمر بأجمل العبارات وينبهك عليها.
+                    ويساعدك ويحبب لك كتب الأدب والشعر.
+                    حري بكل بيت أن يكون موجودا فيه.
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+
+            <div class="swiper-slide mx-2 p-4 bg-dark bg-opacity-75 shadow-lg rounded text-center">
+                <img src="{{ asset('assets/frontend/images/user.webp') }}" alt="صورة العميل" class="rounded-circle mb-3"
+                    style="width: 80px; height: 80px;">
+                <h5 class="fw-bold text-white mb-2">د محمد العبدالكريم</h5>
+                <p class="text-white mb-3 fs-3">
+                    <b> حسن الكلام</b>
+                    <br>
+                    كم يجذبك بعض الأشخاص ببراعة حديثهم وآخرين بحسن اجاباتهم والبعض بحسن السرد وغيرهم بذكاء التخلص من
+                    الإحراج.. هذه الملكات والمهارات يمكن اكتسابها بالمصاحبة أو بالممارسة وبحضور هذا البرنامج
+                </p>
+                <div class="text-warning">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- أزرار التنقل -->
+        <div class="swiper-button-next text-white"></div>
+        <div class="swiper-button-prev text-white"></div>
+
+        <!-- النقاط -->
+        <div class="swiper-pagination mt-3"></div>
+    </section>
+    {{-- testimonial --}}
 
     <section id="cta">
         <div class="call-to-action mt-0">
@@ -466,12 +607,13 @@
                     <div class="accordion-item">
                         <div class="accordion-item-header" id="accordionHeadingOne">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemOne"
-                               aria-expanded="false" aria-controls="accordionItemOne" class="collapsed">
+                                aria-expanded="false" aria-controls="accordionItemOne" class="collapsed">
                                 <i class="fas fa-question"></i>
                                 <span>سؤال 1 ؟</span>
                             </a>
                         </div>
-                        <div id="accordionItemOne" class="collapse" aria-labelledby="accordionHeadingOne" style="">
+                        <div id="accordionItemOne" class="collapse" aria-labelledby="accordionHeadingOne"
+                            style="">
                             <div class="accordion-body">
                                 <p>
                                     It is a long established fact that a reader will be distracted by the
@@ -486,7 +628,7 @@
                     <div class="accordion-item">
                         <div class="accordion-item-header" id="accordionHeaderTwo">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemTwo"
-                               aria-expanded="false" aria-controls="accordionItemTwo">
+                                aria-expanded="false" aria-controls="accordionItemTwo">
                                 <i class="fas fa-question"></i>
                                 <span>How to install this program?</span>
                             </a>
@@ -506,7 +648,7 @@
                     <div class="accordion-item">
                         <div class="accordion-item-header" id="accordionHeaderThree">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemThree"
-                               aria-expanded="false" aria-controls="accordionItemThree">
+                                aria-expanded="false" aria-controls="accordionItemThree">
                                 <i class="fas fa-question"></i>
                                 <span>How do I edit the dashboard panel?</span>
                             </a>
@@ -528,13 +670,13 @@
                     <div class="accordion-item">
                         <div class="accordion-item-header" id="accordionHeadingFour">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemFour"
-                               aria-expanded="false" aria-controls="accordionItemFour" class="collapsed">
+                                aria-expanded="false" aria-controls="accordionItemFour" class="collapsed">
                                 <i class="fas fa-question"></i>
                                 <span>How do i get new updates for free?</span>
                             </a>
                         </div>
                         <div id="accordionItemFour" class="collapse" aria-labelledby="accordionHeadingFour"
-                             style="">
+                            style="">
                             <div class="accordion-body">
                                 <p>
                                     It is a long established fact that a reader will be distracted by the
@@ -549,7 +691,7 @@
                     <div class="accordion-item">
                         <div class="accordion-item-header" id="accordionHeaderFive">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemFive"
-                               aria-expanded="false" aria-controls="accordionItemFive">
+                                aria-expanded="false" aria-controls="accordionItemFive">
                                 <i class="fas fa-question"></i>
                                 <span>How can I upload a screenshot?</span>
                             </a>
@@ -569,7 +711,7 @@
                     <div class="accordion-item">
                         <div class="accordion-item-header" id="accordionHeaderSix">
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemSix"
-                               aria-expanded="false" aria-controls="accordionItemSix">
+                                aria-expanded="false" aria-controls="accordionItemSix">
                                 <i class="fas fa-question"></i>
                                 <span>How do I activate multiple users?</span>
                             </a>
@@ -627,8 +769,8 @@
                         </div>
                         <div class="body">
                             <h5>البريد الالكتروني وركم الهاتف:</h5>
-                            <p>elsecolor@gmail.com</p>
-                            <p>+1 422-200-5555</p>
+                            <p>info@alamah.top</p>
+                            <p>+966 50 526 6074</p>
                         </div>
                     </div>
                 </div>
@@ -639,13 +781,13 @@
 
                     <!-- __BLOCK__ -->
                     <div class="contact-form-wrap">
-                        <form action="{{route('contact')}}" method="post" id="contactForm">
+                        <form action="{{ route('contact') }}" method="post" id="contactForm">
                             @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="contact-form-group">
-                                        <input name="name" type="text" class="form-control"
-                                               placeholder="الاسم" required>
+                                        <input name="name" type="text" class="form-control" placeholder="الاسم"
+                                            required>
                                         <div class="form-validate-icons">
                                             <span></span>
                                         </div>
@@ -654,7 +796,7 @@
                                 <div class="col-md-6">
                                     <div class="contact-form-group">
                                         <input type="email" name="email" class="form-control"
-                                               placeholder="البريد الالكتروني" required>
+                                            placeholder="البريد الالكتروني" required>
                                         <div class="form-validate-icons">
                                             <span></span>
                                         </div>
@@ -662,8 +804,8 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="contact-form-group">
-                                        <input type="text" name="phone" class="form-control"
-                                               placeholder="الهاتف" required>
+                                        <input type="text" name="phone" class="form-control" placeholder="الهاتف"
+                                            required>
                                         <div class="form-validate-icons">
                                             <span></span>
                                         </div>
@@ -671,8 +813,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="contact-form-group">
-                                                <textarea name="message" class="form-control"
-                                                          placeholder="الرساله" cols="20" rows="8"></textarea>
+                                        <textarea name="message" class="form-control" placeholder="الرساله" cols="20" rows="8"></textarea>
                                         <div class="form-validate-icons">
                                             <span></span>
                                         </div>
@@ -701,4 +842,35 @@
 
     </section>
     <!--// Contact Section End //-->
+
+    @push('scripts')
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 40,
+                    },
+                },
+            });
+        </script>
+    @endpush
 @endsection

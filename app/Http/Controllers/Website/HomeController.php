@@ -63,5 +63,4 @@ class HomeController extends Controller
 
         return back()->with('success', 'تم إرسال الرسالة بنجاح.');
     }
-
 }
