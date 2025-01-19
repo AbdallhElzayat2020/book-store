@@ -276,7 +276,6 @@
     </section>
     <!--// Counter Section End //-->
 
-
     <!--// My Works Start //-->
     <section class="section bg-primary-light" id="porfolio">
         <div class="container">
@@ -287,139 +286,41 @@
                         <h2>الكتب المميزه</h2>
                     </div>
                 </div>
-                <div class="col-md-6">
+                {{-- <div class="col-md-6">
                     <div class="portfolio-filter">
                         <a href="#" data-portfolio-filter="*" class="current">الكل</a>
                         <a href="#" data-portfolio-filter=".mockup">ديني</a>
                         <a href="#" data-portfolio-filter=".ui">شخصي</a>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="row portfolio-grid" id="portfolio-masonry-wrap">
-                <div class="col-md-6 col-lg-4 portfolio-item mockup">
-                    <div class="portfolio-item-inner">
-                        <div class="portfolio-item-img">
-                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                class="img-fluid">
-                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <div class="portfolio-details">
-                                <span>Mockup</span>
-                                <h5>Card Mockup</h5>
+                @foreach ($books as $book)
+                    <div class="col-md-6 col-lg-4 portfolio-item mockup">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-img">
+                                <img src="{{ asset($book->image) }}" alt="Portfolio image" class="img-fluid">
+                                <a href="{{ asset($book->image) }}" class="portfolio-zoom-link">
+                                    <i class="fas fa-search"></i>
+                                </a>
                             </div>
-                            <a href="#" class="portfolio-link">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
+                            <div class="body">
+                                <div class="portfolio-details">
+                                    <span>{{ $book->category->name }}</span>
+                                    <span>{{ $book->price }} ريال </span>
+                                    <h5>{{ $book->name }}</h5>
+                                </div>
+                                <a href="{{ route('books.show', $book->id) }}" class="portfolio-link">
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 portfolio-item mockup">
-                    <div class="portfolio-item-inner">
-                        <div class="portfolio-item-img">
-                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                class="img-fluid">
-                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <div class="portfolio-details">
-                                <span>Mockup</span>
-                                <h5>Mockup Box</h5>
-                            </div>
-                            <a href="#" class="portfolio-link">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 portfolio-item mockup">
-                    <div class="portfolio-item-inner">
-                        <div class="portfolio-item-img">
-                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                class="img-fluid">
-                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <div class="portfolio-details">
-                                <span>Mockup</span>
-                                <h5>Coffee Mockup</h5>
-                            </div>
-                            <a href="#" class="portfolio-link">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 portfolio-item mockup">
-                    <div class="portfolio-item-inner">
-                        <div class="portfolio-item-img">
-                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                class="img-fluid">
-                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <div class="portfolio-details">
-                                <span>Mockup</span>
-                                <h5>Square Box</h5>
-                            </div>
-                            <a href="#" class="portfolio-link">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 portfolio-item ui">
-                    <div class="portfolio-item-inner">
-                        <div class="portfolio-item-img">
-                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                class="img-fluid">
-                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <div class="portfolio-details">
-                                <span>Ui Design</span>
-                                <h5>Paper Design</h5>
-                            </div>
-                            <a href="#" class="portfolio-link">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 portfolio-item mockup">
-                    <div class="portfolio-item-inner">
-                        <div class="portfolio-item-img">
-                            <img src="{{ asset('') }}uploads/img/dummy/600x600.jpg" alt="Portfolio image"
-                                class="img-fluid">
-                            <a href="{{ asset('') }}uploads/img/dummy/600x600.jpg" class="portfolio-zoom-link">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </div>
-                        <div class="body">
-                            <div class="portfolio-details">
-                                <span>Mockup</span>
-                                <h5>Business Card</h5>
-                            </div>
-                            <a href="#" class="portfolio-link">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a href="javascript:void(0)" class="primary-btn">
+                    <a href="{{ route('books.index') }}" class="primary-btn">
                         <span class="text">عرض المزيد</span>
                         <span class="icon"><i class="fa fa-arrow-right"></i></span>
                     </a>

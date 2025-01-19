@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Website;
 
 use App\Http\Controllers\Controller;
+use App\Models\Book;
 use App\Models\Contact;
 use Illuminate\Http\Request;
 
@@ -10,7 +11,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('website.home');
+        $books = Book::with('category')->take(6)->get();
+        return view('website.home', compact('books'));
     }
 
     public function contact(Request $request)
