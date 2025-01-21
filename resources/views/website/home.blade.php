@@ -26,7 +26,7 @@
                     <div class="hero-img">
                         <div class="border-line-outer">
                             <div class="border-line-inner">
-                                <img src="{{ asset('') }}uploads/img/dummy/354x354.jpg" title="banner image"
+                                <img src="{{ asset('assets/frontend/images/cover.png') }}" title="banner image"
                                     alt="banner image" class="img-fluid">
                             </div>
                         </div>
@@ -35,10 +35,11 @@
             </div>
         </div>
         <ul class="hero-social-list">
-            <li><a href="javascript:void(0)"><i class="fab fa-github"></i></a></li>
-            <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/fawaz_al.abdali/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li><a href="https://wa.me/966505266074" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </li>
         </ul>
 
         <a href="mailto:info@alamah.top" class="hero-email-link">info@alamah.top</a>
@@ -51,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-img wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
-                        <img src="{{ asset('') }}uploads/img/dummy/480x600.jpg" alt="About image" title="About image"
+                        <img src="{{ asset('assets/frontend/images/cover.png') }}" alt="About image" title="About image"
                             class="img-fluid">
                         <a class="about-video-btn" href="https://www.youtube.com/watch?v=YqQx75OPRa0"><i
                                 class="fa fa-play"></i></a>
@@ -73,46 +74,54 @@
                                 <ul class="mb-resp-15">
                                     <li>
                                         <div class="text">
-                                            <h5>الاسم :</h5>
-                                            <p>محمد ايمن</p>
+                                            <h5>دليل ميسر لطلاقة الحديث والردود الذكية</h5>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="text">
-                                            <h5>الدوله :</h5>
-                                            <p>مصر</p>
+                                            <h5>أول برنامج عربي يهتم بمهارات المشافهة</h5>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="text">
-                                            <h5>السن :</h5>
-                                            <p>24 سنه</p>
+                                            <h5>كتبنا إليكترونية لايوجد لدينا نسخ مطبوعة</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <h5>برامجنا تهتم بالجانب العملي وامتلاك المهارة</h5>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <ul>
+                                <ul class="mb-resp-15">
                                     <li>
                                         <div class="text">
-                                            <h5>الجامعه :</h5>
-                                            <p>اداره الاعمال</p>
+                                            <h5>حساب واحد يكفيك أنت وأسرتك</h5>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="text">
-                                            <h5>اللغات :</h5>
-                                            <p>عربي,انجليزي,الماني</p>
+                                            <h5>البرنامج الإثرائي من تقديم المدرب فواز العبدلي
+                                            </h5>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="text">
-                                            <h5>العنوان :</h5>
-                                            <p>Etowah, TN 37331 United States</p>
+                                            <h5>محتوى نظري و ١٠ ساعات تدريبية
+                                                و١٠٠ مادة إثرائية بطريقة التكرار المتباعد لترسيخ المعلومة</h5>
                                         </div>
                                     </li>
+                                    <li>
+                                        <div class="text">
+                                            <h5>حسن الكلام</h5>
+                                        </div>
+                                    </li>
+
                                 </ul>
                             </div>
+
                         </div>
                         <a href="javascript:void(0)" class="primary-btn me-3 mb-3">
                             <span class="text">ابداء الان</span>
@@ -142,13 +151,12 @@
                         <div class="body">
                             <div class="icon-outer-line">
                                 <div class="icon-inner-line">
-                                    <span class="fab fa-google"></span>
+                                    <span class="fa fa-user"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <h6>Google LLC</h6>
-                                <h5>Web Designer</h5>
-                                <span>2018-2024</span>
+                                <h6>علامة</h6>
+                                <h5>دليل ميسر لطلاقة الحديث والردود الذكية</h5>
                             </div>
                         </div>
                     </div>
@@ -158,49 +166,149 @@
                         <div class="body">
                             <div class="icon-outer-line">
                                 <div class="icon-inner-line">
-                                    <span class="fab fa-wordpress"></span>
+                                    <span class="fa-solid fa-user-ninja"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <h6>Wordpress</h6>
-                                <h5>Web Developer</h5>
-                                <span>2016-2018</span>
+                                <h6>علامة</h6>
+                                <h5>حسن الكلام</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
                     <div class="resume-item">
                         <div class="body">
                             <div class="icon-outer-line">
                                 <div class="icon-inner-line">
-                                    <span class="fab fa-dribbble"></span>
+                                    <span class="fa-solid fa-1"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <h6>Dribbble</h6>
-                                <h5>UI Designer</h5>
-                                <span>2012-2014</span>
+                                <h6>علامة</h6>
+                                <h5>أول برنامج عربي يهتم بمهارات المشافهة</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
                     <div class="resume-item">
                         <div class="body">
                             <div class="icon-outer-line">
                                 <div class="icon-inner-line">
-                                    <span class="fab fa-dribbble"></span>
+                                    <span class="fa-solid fa-book"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <h6>Dribbble</h6>
-                                <h5>UI Designer</h5>
-                                <span>2012-2014</span>
+                                <h6>علامة</h6>
+                                <h5>كتبنا إليكترونية لايوجد لدينا نسخ مطبوعة</h5>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="resume-item">
+                        <div class="body">
+                            <div class="icon-outer-line">
+                                <div class="icon-inner-line">
+                                    <span class="fa-solid fa-video"></span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h6>علامة</h6>
+                                <h5>برامجنا تهتم بالجانب العملي وامتلاك المهارة</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="resume-item">
+                        <div class="body">
+                            <div class="icon-outer-line">
+                                <div class="icon-inner-line">
+                                    <span class="fa-solid fa-people-group"></span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h6>علامة</h6>
+                                <h5>حساب واحد يكفيك أنت وأسرتك
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="resume-item">
+                        <div class="body">
+                            <div class="icon-outer-line">
+                                <div class="icon-inner-line">
+                                    <span class="fa-brands fa-telegram"></span>
+
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h6>علامة</h6>
+                                <h5>
+                                    البرنامج الإثرائي من تقديم المدرب فواز العبدلي
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="resume-item">
+                        <div class="body">
+                            <div class="icon-outer-line">
+                                <div class="icon-inner-line">
+                                    <span class="fa-solid fa-file-signature"></span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h6>علامة</h6>
+                                <h5>
+                                    صانع محتوى ومدرب مهارات
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="resume-item">
+                        <div class="body">
+                            <div class="icon-outer-line">
+                                <div class="icon-inner-line">
+                                    <span class="fa-solid fa-person-burst"></span>
+                                    <i class=""></i>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h6>علامة</h6>
+                                <h5>
+                                    ومستشار في البراند الشخصي
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                    <div class="resume-item">
+                        <div class="body">
+                            <div class="icon-outer-line">
+                                <div class="icon-inner-line">
+                                    <span class="fa-solid fa-coins"></span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h6>علامة</h6>
+                                <h5>
+                                    محتوى نظري و ١٠ ساعات تدريبية
+                                    و١٠٠ مادة إثرائية بطريقة التكرار المتباعد لترسيخ المعلومة بسعر ممتاز
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -213,7 +321,7 @@
                 <div class="col-lg-6">
                     <div class="section-heading light">
                         <h2>بعض الاحصائيات</h2>
-                        <h5 class="text-white">لقد وثق بي أكثر من 10000 عميل</h5>
+                        <h5 class="text-white">لقد وثق بي أكثر من 4000 عميل</h5>
                     </div>
                 </div>
             </div>
@@ -440,12 +548,12 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="call-to-action-inner">
-                            <h2>هل تحتاج إلى كتاب جديد؟</h2>
+                            <h2>لحجز استشارة مع المدرب فواز العبدلي</h2>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="call-to-action-btn">
-                            <a href="#" data-scroll-nav="7" class="white-btn">
+                            <a href="https://wa.me/966505266074" data-scroll-nav="7" class="white-btn">
                                 <span class="text">تواصل معنا</span>
                                 <span class="icon"><i class="fa fa-arrow-right"></i></span>
                             </a>
@@ -475,18 +583,14 @@
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemOne"
                                 aria-expanded="false" aria-controls="accordionItemOne" class="collapsed">
                                 <i class="fas fa-question"></i>
-                                <span>سؤال 1 ؟</span>
+                                <span>ماذا تقدمون؟</span>
                             </a>
                         </div>
                         <div id="accordionItemOne" class="collapse" aria-labelledby="accordionHeadingOne"
                             style="">
                             <div class="accordion-body">
                                 <p>
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout. The point of using
-                                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here', making it look like readable
-                                    English.
+                                    نحن نهتم بالمهارات التي لاتعلمها المدارس
                                 </p>
                             </div>
                         </div>
@@ -496,17 +600,13 @@
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemTwo"
                                 aria-expanded="false" aria-controls="accordionItemTwo">
                                 <i class="fas fa-question"></i>
-                                <span>How to install this program?</span>
+                                <span>انتم شركة تدريب </span>
                             </a>
                         </div>
                         <div id="accordionItemTwo" class="collapse" aria-labelledby="accordionHeaderTwo">
                             <div class="accordion-body">
                                 <p>
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout. The point of using
-                                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here', making it look like readable
-                                    English.
+                                    نحن متجر يقدم كتاب وإثراء
                                 </p>
                             </div>
                         </div>
@@ -516,17 +616,13 @@
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemThree"
                                 aria-expanded="false" aria-controls="accordionItemThree">
                                 <i class="fas fa-question"></i>
-                                <span>How do I edit the dashboard panel?</span>
+                                <span>هل هناك خدمات أخرى</span>
                             </a>
                         </div>
                         <div id="accordionItemThree" class="collapse" aria-labelledby="accordionHeaderThree">
                             <div class="accordion-body">
                                 <p>
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout. The point of using
-                                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here', making it look like readable
-                                    English.
+                                    نقدم استشارات مرتبطة بهذه المهارات
                                 </p>
                             </div>
                         </div>
@@ -538,18 +634,14 @@
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemFour"
                                 aria-expanded="false" aria-controls="accordionItemFour" class="collapsed">
                                 <i class="fas fa-question"></i>
-                                <span>How do i get new updates for free?</span>
+                                <span>هل كتبكم مطبوعة</span>
                             </a>
                         </div>
                         <div id="accordionItemFour" class="collapse" aria-labelledby="accordionHeadingFour"
                             style="">
                             <div class="accordion-body">
                                 <p>
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout. The point of using
-                                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here', making it look like readable
-                                    English.
+                                    ليس لدينا كتب مطبوعة كل ملفاتنا اليكترونية pdf
                                 </p>
                             </div>
                         </div>
@@ -559,41 +651,18 @@
                             <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemFive"
                                 aria-expanded="false" aria-controls="accordionItemFive">
                                 <i class="fas fa-question"></i>
-                                <span>How can I upload a screenshot?</span>
+                                <span>لماذا لاتطبع الكتب</span>
                             </a>
                         </div>
                         <div id="accordionItemFive" class="collapse" aria-labelledby="accordionHeaderFive">
                             <div class="accordion-body">
                                 <p>
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout. The point of using
-                                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here', making it look like readable
-                                    English.
+                                    لأننا نهتم بالمهارات فالإثراء لدينا يهتم بأن يمتلك المتدرب مهارة وليس معلومة
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header" id="accordionHeaderSix">
-                            <a href="#" data-bs-toggle="collapse" data-bs-target="#accordionItemSix"
-                                aria-expanded="false" aria-controls="accordionItemSix">
-                                <i class="fas fa-question"></i>
-                                <span>How do I activate multiple users?</span>
-                            </a>
-                        </div>
-                        <div id="accordionItemSix" class="collapse" aria-labelledby="accordionHeaderSix">
-                            <div class="accordion-body">
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout. The point of using
-                                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here', making it look like readable
-                                    English.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -621,9 +690,8 @@
                         </div>
                         <div class="body">
                             <h5>العنوان</h5>
-                            <p>1395 Nixon Avenue Etowah, TN 37331
-                                <br>
-                                United States
+                            <p>
+                                المملكة العربية السعودية،
                             </p>
                         </div>
                     </div>
@@ -634,13 +702,14 @@
                             <span class="fas fa-envelope-open-text"></span>
                         </div>
                         <div class="body">
-                            <h5>البريد الالكتروني وركم الهاتف:</h5>
+                            <h5>البريد الالكتروني ورقم الهاتف:</h5>
                             <p>info@alamah.top</p>
                             <p>+966 50 526 6074</p>
                         </div>
                     </div>
                 </div>
             </div>
+
 
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -679,7 +748,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="contact-form-group">
-                                        <textarea name="message" class="form-control" placeholder="الرساله" cols="20" rows="8"></textarea>
+                                        <textarea name="message" class="form-control" placeholder="رسالتك" cols="20" rows="8"></textarea>
                                         <div class="form-validate-icons">
                                             <span></span>
                                         </div>

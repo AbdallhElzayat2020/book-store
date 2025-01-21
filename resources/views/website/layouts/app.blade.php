@@ -2,37 +2,71 @@
 <html dir="rtl" lang="ar">
 
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="title" content=" Homepage ">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta property="fb:app_id" content="">
-    <meta property="og:title" content=" Homepage ">
-    <meta property="og:url" content="http://book-store.test">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta itemprop="image" content="">
-    <meta property="og:type" content="website">
+    <!-- Meta Description -->
+    <meta name="description"
+        content="اكتسب طلاقة الحديث ومهارات الردود الذكية مع المدرب فواز العبدلي عبر برنامج حسن الكلام. محتوى نظري و10 ساعات تدريبية وأكثر من 100 مادة إثرائية. برامج عملية مخصصة لتطوير الذات وإتقان مهارات المشافهة.">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="">
-    <meta property="twitter:title" content=" Homepage ">
-    <meta property="twitter:description" content="">
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="مهارات لا تعلمها المدارس, تدريب, فواز العبدلي, طلاقة لغوية, حسن الكلام, الردود الذكية, برامج تدريبية, كتب إلكترونية, مهارات المشافهة, البراند الشخصي, تطوير الذات, محتوى تدريبي, مواد إثرائية, التكرار المتباعد">
+
+    <!-- Meta Author -->
+    <meta name="author" content="فواز العبدلي">
+
+    <!-- Charset -->
+    <meta charset="UTF-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Language -->
+    <meta name="language" content="AR">
+
+    <!-- Revisit After -->
+    <meta name="revisit-after" content="7 days">
+    <meta property="og:title" content="حسن الكلام | طلاقة الحديث والردود الذكية | علامة">
+    <meta property="og:description"
+        content="اكتسب طلاقة الحديث ومهارات الردود الذكية مع المدرب فواز العبدلي عبر برنامج حسن الكلام. محتوى نظري و10 ساعات تدريبية وأكثر من 100 مادة إثرائية.">
+    <meta property="og:image" content="https://alamah.top/uploads/img/dummy/your-logo.jpg">
+    <meta property="og:url" content="https://alamah.top">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_AR">
+
+    <meta name="x:card" content="summary_large_image">
+    <meta name="x:title" content="حسن الكلام | طلاقة الحديث والردود الذكية | علامة">
+    <meta name="x:description"
+        content="اكتسب طلاقة الحديث ومهارات الردود الذكية مع المدرب فواز العبدلي عبر برنامج حسن الكلام. محتوى نظري و10 ساعات تدريبية وأكثر من 100 مادة إثرائية.">
+    <meta name="x:image" content="https://alamah.top/uploads/img/dummy/your-logo.jpg">
+    <meta name="x:image:alt" content="حسن الكلام | طلاقة الحديث والردود الذكية | علامة">
+
+    <meta name="geo.region" content="SA"> <!-- رمز الدولة -->
+    <meta name="geo.placename" content="المملكة العربية السعودية">
+
+    <link rel="icon" href="https://alamah.top/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://alamah.top/favicon.ico" type="image/x-icon">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="preload" href="https://alamah.top/css/style.css" as="style">
+    <link rel="preload" href="https://alamah.top/js/script.js" as="script">
+
+
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Title -->
-    <title> كتاب </title>
+    <title> مهارات لا تعملها المدارس || علامة </title>
 
     <!-- Favicon -->
     <link href="{{ asset('') }}uploads/img/dummy/favicon.png" sizes="128x128" rel="shortcut icon"
         type="image/x-icon" />
     <link href="{{ asset('') }}uploads/img/dummy/favicon.png" sizes="128x128" rel="shortcut icon" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Fonts -->
@@ -42,7 +76,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
         rel="stylesheet">
-
 
     <!--// Boostrap v5 //-->
     <link rel="stylesheet" href="{{ asset('') }}assets/frontend/vendor/css/bootstrap.min.css">
@@ -60,7 +93,6 @@
     <link rel="stylesheet" href="{{ asset('') }}assets/frontend/fonts/font_awesome/css/all.css">
     <!--// Flat Icons //-->
     <link rel="stylesheet" href="{{ asset('') }}assets/frontend/fonts/flat_icons/flaticon.css">
-
 
     <style>
         :root {
@@ -138,27 +170,29 @@
     <!--// Page Wrapper End //-->
 
     <div class="mobile-widget-container">
-        <a href="tel:" class="btn btn-icon">
-            <i class="fas fa-phone-alt"></i> Call
+        <a href="https://www.tiktok.com/@fawaz_al.abdali" target="_blank" class="btn btn-icon">
+            <i class="fa-brands fa-tiktok mx-2"></i> tiktok
         </a>
-        <a href="https://wa.me/" class="btn btn-icon">
-            <i class="fab fa-whatsapp"></i> WhatsApp
+
+        <a href="https://wa.me/966505266074" class="btn btn-icon">
+            <i class="fab fa-whatsapp mx-2"></i> WhatsApp
+        </a>
+        <a href="tel:+966505266074" class="btn btn-icon">
+            <i class="fas fa-phone-alt mx-2"></i> Call
         </a>
     </div>
 
-
-    <a href="#" class="btn-whatsapp-pulse custom-color-black">
+    <a href="tel:+966505266074" class="btn-whatsapp-pulse custom-color-black">
         <i class="fas fa-phone"></i>
     </a>
 
-    <a href="#" class="btn-whatsapp-pulse btn-whatsapp-pulse-border">
+    <a href="https://wa.me/966505266074" class="btn-whatsapp-pulse btn-whatsapp-pulse-border">
         <i class="fab fa-whatsapp"></i>
     </a>
-
-    <a href="#" class="btn-whatsapp-pulse btn-whatsapp-pulse-border-2 custom-color-blue">
-        <i class="fab fa-facebook"></i>
+    <a href="https://www.instagram.com/fawaz_al.abdali/"
+        class="btn-whatsapp-pulse btn-whatsapp-pulse-border-2 custom-color-orange">
+        <i class="fab fa-instagram"></i>
     </a>
-
 
     <!--// JQuery //-->
     <script src="{{ asset('assets/frontend/vendor/js/jquery.min.js') }}"></script>

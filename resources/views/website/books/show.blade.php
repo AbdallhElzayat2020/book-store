@@ -7,6 +7,7 @@
 
 
                 <div class="col-lg-5 bg-white rounded p-4">
+
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <h6>الاسم : </h6>
                         <span>{{ $book->name }}</span>
@@ -23,6 +24,7 @@
                         <h6>الفئة : </h6>
                         <span>{{ $book->category->name }}</span>
                     </div>
+
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <h6>عمليات الشراء : </h6>
                         <span>300 عملية شراء</span>
@@ -40,9 +42,14 @@
                     @endif
                 </div>
                 <div class="col-lg-6 mt-3">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <h6>الفئة : </h6>
+                        <h5 class="fw-bold mt-4">يشمل كتاب وتدريب ومواد إثرائية</h5>
+                    </div>
                     <img class="img-fluid my-3" src="{{ asset($book->image) }}" alt="{{ $book->name }}">
                     <p style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word;">
-                        {{ $book->description }}</p>
+                        {{ $book->description }}
+                    </p>
                 </div>
             </div>
 
