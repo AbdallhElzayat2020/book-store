@@ -2,25 +2,28 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-4 footer-widget-resp">
+                <div class="col-md-6 col-lg-3 footer-widget-resp">
                     <div class="footer-widget">
                         <h6 class="footer-title">من نحن</h6>
                         <a href="#">
-                            <img src="{{asset('')}}uploads/img/dummy/your-logo.jpg" alt="footer logo"
-                                 class="img-fluid footer-logo">
+                            <img style="max-width: 200px; max-height: 150px"
+                                src="{{ asset('assets/frontend/images/main_logo_white.png') }}" alt="logo"
+                                class="img-fluid footer-logo">
                         </a>
                         <p class="footer-desc">
-                            من المعروف منذ زمن طويل أن القارئ سوف ينشغل بالمحتوى المقروء.
+                            لان المهارة هي العنصر الاهم في العملية التعليمية نحن في علامة نختصر لك الزمن ونقدم لك اسرع
+                            الطرق
+                            للحصول علي
+                            المهارات التي
+                            لا تعلمها
+                            المدارس
                         </p>
 
                         <div class="footer-social-links">
-                            <a href="javascript:void(0)">
-                                <i class="fab fa-facebook-f"></i>
+                            <a href="https://tiktok.com/@fawaz_al.abdali" target="_blank">
+                                <i class="fab fa-tiktok"></i>
                             </a>
-                            <a href="javascript:void(0)">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="javascript:void(0)">
+                            <a href="https://www.instagram.com/fawaz_al.abdali/" target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
                             <a href="javascript:void(0)">
@@ -29,61 +32,70 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 footer-widget-resp">
+                <div class="col-md-6 col-lg-3 footer-widget-resp">
                     <div class="footer-widget footer-widget-pl">
-                        <h6 class="footer-title">Usefull Links</h6>
+                        <h6 class="footer-title">اهم اللينكات</h6>
                         <ul class="footer-links">
                             <li>
-                                <a href="javascript:void(0)">My Team</a>
+                                <a href="">الرئيسية</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">My Services</a>
+                                <a href="#testimonials">اراء العملاء</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">My Resume</a>
+                                <a href="#faqsection">الاسالة الشائعة</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">My Works</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">Get in Touch</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">Privacy Policy</a>
+                                <a href="#contact">حجز استشارة</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 footer-widget-resp">
+                <div class="col-md-6 col-lg-3 footer-widget-resp">
                     <div class="footer-widget">
-                        <h6 class="footer-title">Contact Info</h6>
+                        <h6 class="footer-title">معلومات التواصل</h6>
                         <div class="footer-contact-info-wrap">
                             <ul class="footer-contact-info-list">
                                 <li>
-                                    <h6>Address:</h6>
+                                    <h6>العنوان</h6>
                                     <p>
-                                        1395 Nixon Avenue Etowah, TN 37331
-                                        <br>United States
+                                        المملكة العربية السعودية
                                     </p>
                                 </li>
                                 <li>
-                                    <h6>E-Mail & Phone:</h6>
+                                    <h6>الايمال</h6>
                                     <div class="text">
-                                        <p>+1 422-200-5555</p>
-                                        <p>elsecolor@gmail.com</p>
+                                        <p>info@alamah.com</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-3 footer-widget-resp">
+                    <div class="footer-widget">
+                        <h6 class="footer-title">الدفع الامن بواسطة</h6>
+                        <div class="images bg-light d-flex align-items-center justify-content-center gap-2 py-4">
+                            <img style="max-width: 50px; max-height: 50px; border-radius: 10px m-1  "
+                                src="{{ asset('assets/frontend/images/VisaLogo.png') }}" alt="">
+                            <img style="max-width: 50px; max-height: 50px; border-radius: 10px m-1  "
+                                src="{{ asset('assets/frontend/images/KNETLogo.svg') }}" alt="">
+                            <img style="max-width: 50px; max-height: 50px; border-radius: 10px m-1  "
+                                src="{{ asset('assets/frontend/images/Mada_Logo.svg') }}" alt="">
+                            <img style="max-width: 50px; max-height: 50px; border-radius: 10px  m-1 "
+                                src="{{ asset('assets/frontend/images/Mastercard_logo.webp') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <p class="copyright-text">© Copyright 2025. جميع الحقوق محفوظة</p>
             </div>
         </div>
-    </div>
-
-    <div class="copyright">
-        <div class="container">
-            <p class="copyright-text">© Copyright 2024. Powered By ElseColor</p>
-        </div>
-    </div>
 </footer>

@@ -1,10 +1,9 @@
 @extends('website.layouts.app')
 @section('content')
     <!--// My Works Start //-->
-    <section class="section bg-primary-light" id="porfolio" style="margin-top: 30px">
+    <section class="section bg-primary-light" id="porfolio" style="margin-top: 50px">
         <div class="container">
             <div class="row gap-3 d-flex  justify-content-between portfolio-grid h-auto pt-4" id="portfolio-masonry-wrap">
-
 
                 <div class="col-lg-5 bg-white rounded p-4">
 
@@ -16,6 +15,7 @@
                         <h6>الكاتب : </h6>
                         <span>{{ $book->author }}</span>
                     </div>
+
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <h6>السعر : </h6>
                         <span>{{ $book->price }}</span>
@@ -44,7 +44,9 @@
                 <div class="col-lg-6 mt-3">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <h6>الفئة : </h6>
-                        <h5 class="fw-bold mt-4">يشمل كتاب وتدريب ومواد إثرائية</h5>
+                        <h5 class="fw-bold mt-4">
+
+                        </h5>
                     </div>
                     <img class="img-fluid my-3" src="{{ asset($book->image) }}" alt="{{ $book->name }}">
                     <p style="word-wrap: break-word; overflow-wrap: break-word; word-break: break-word;">

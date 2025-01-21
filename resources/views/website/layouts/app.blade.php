@@ -30,7 +30,7 @@
     <meta property="og:title" content="حسن الكلام | طلاقة الحديث والردود الذكية | علامة">
     <meta property="og:description"
         content="اكتسب طلاقة الحديث ومهارات الردود الذكية مع المدرب فواز العبدلي عبر برنامج حسن الكلام. محتوى نظري و10 ساعات تدريبية وأكثر من 100 مادة إثرائية.">
-    <meta property="og:image" content="https://alamah.top/uploads/img/dummy/your-logo.jpg">
+    <meta property="og:image" content="https://alamah.top/assets/frontend/images/main_logo_black.png">
     <meta property="og:url" content="https://alamah.top">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ar_AR">
@@ -39,18 +39,14 @@
     <meta name="x:title" content="حسن الكلام | طلاقة الحديث والردود الذكية | علامة">
     <meta name="x:description"
         content="اكتسب طلاقة الحديث ومهارات الردود الذكية مع المدرب فواز العبدلي عبر برنامج حسن الكلام. محتوى نظري و10 ساعات تدريبية وأكثر من 100 مادة إثرائية.">
-    <meta name="x:image" content="https://alamah.top/uploads/img/dummy/your-logo.jpg">
+    <meta property="og:image" content="https://alamah.top/assets/frontend/images/main_logo_black.png">
     <meta name="x:image:alt" content="حسن الكلام | طلاقة الحديث والردود الذكية | علامة">
 
     <meta name="geo.region" content="SA"> <!-- رمز الدولة -->
     <meta name="geo.placename" content="المملكة العربية السعودية">
 
-    <link rel="icon" href="https://alamah.top/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="https://alamah.top/favicon.ico" type="image/x-icon">
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="preload" href="https://alamah.top/css/style.css" as="style">
-    <link rel="preload" href="https://alamah.top/js/script.js" as="script">
+    <link rel="icon" href="https://alamah.top/assets/frontend/images/main_logo_black.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://alamah.top/assets/frontend/images/main_logo_black.png" type="image/x-icon">
 
 
 
@@ -173,26 +169,23 @@
         <a href="https://www.tiktok.com/@fawaz_al.abdali" target="_blank" class="btn btn-icon">
             <i class="fa-brands fa-tiktok mx-2"></i> tiktok
         </a>
-
-        <a href="https://wa.me/966505266074" class="btn btn-icon">
-            <i class="fab fa-whatsapp mx-2"></i> WhatsApp
-        </a>
-        <a href="tel:+966505266074" class="btn btn-icon">
-            <i class="fas fa-phone-alt mx-2"></i> Call
+        <a href="https://www.instagram.com/fawaz_al.abdali/" class="btn btn-icon">
+            <i class="fa-brands fa-instagram mx-2"></i> instagram
+        </a> <a href="https://www.instagram.com/fawaz_al.abdali/" class="btn btn-icon">
+            <i class="fa-brands fa-youtube mx-2"></i> youtube
         </a>
     </div>
 
-    <a href="tel:+966505266074" class="btn-whatsapp-pulse custom-color-black">
-        <i class="fas fa-phone"></i>
-    </a>
 
-    <a href="https://wa.me/966505266074" class="btn-whatsapp-pulse btn-whatsapp-pulse-border">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="https://www.instagram.com/fawaz_al.abdali/"
+
+    {{-- <a href="https://www.instagram.com/fawaz_al.abdali/"
         class="btn-whatsapp-pulse btn-whatsapp-pulse-border-2 custom-color-orange">
         <i class="fab fa-instagram"></i>
-    </a>
+    </a> --}}
+    {{-- <a href="https://www.tiktok.com/@fawaz_al.abdali" target="_blank"
+        class="btn-whatsapp-pulse btn-whatsapp-pulse-border-2 custom-color-orange">
+        <i class="fab fa-tiktok"></i>
+    </a> --}}
 
     <!--// JQuery //-->
     <script src="{{ asset('assets/frontend/vendor/js/jquery.min.js') }}"></script>

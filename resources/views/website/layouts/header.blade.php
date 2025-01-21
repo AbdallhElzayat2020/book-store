@@ -2,10 +2,14 @@
     <div id="nav-menu-wrap">
         <div class="container">
             <nav class="navbar navbar-expand-lg p-0">
-                <a class="navbar-brand" title="Home" href="{{ route('home') }}">
-                    <img src="{{ asset('uploads/img/dummy/your-logo.jpg') }}" alt="Logo White"
+                <a style="width: 150px; height: 100px" class="navbar-brand" title="Home" href="{{ route('home') }}">
+
+                    <img style="max-width: 100%; max-height: 100%"
+                        src="{{ asset('assets/frontend/images/main_logo_white.png') }}" alt="logo white"
                         class="img-fluid logo-transparent">
-                    <img src="{{ asset('uploads/img/dummy/your-logo.jpg') }}" alt="Logo Black"
+
+                    <img style="max-width: 150px; max-height: 100px"
+                        src="{{ asset('assets/frontend/images/main_logo_black.png') }}" alt="logo black"
                         class="img-fluid logo-normal">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#fixedNavbar"
@@ -26,11 +30,6 @@
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="{{ route('home') }}#about">من نحن</a>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link menu-link" href="{{ route('home') }}#myresume">المميزات</a>
-                        </li>
-
                         @auth
                             <li class="nav-item">
                                 <a class="nav-link menu-link"
@@ -38,7 +37,7 @@
                             </li>
                         @else
                             <li class="nav-item">
-                                <a class="nav-link menu-link" href="{{ route('home') }}#porfolio">الكتب المميزه</a>
+                                <a class="nav-link menu-link" href="{{ route('home') }}#porfolio">البرامج</a>
                             </li>
                         @endauth
 
